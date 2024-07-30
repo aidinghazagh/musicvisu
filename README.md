@@ -25,22 +25,32 @@ Or the development version from GitHub with:
 ## Usage
 
 ### frequencies_to_notes()
+
 > frequencies <- c(440, 880, 241.5)
-> notes <- frequencies_to_notes(frequencies)
+> 
+> notes <- frequencies_to_notes(frequencies
+
 > cat(notes)
 
+
 ### lyrics_chart()
+
 > file <- "C:/Users/u/R/CS50 final project/yesterday.txt"
+> 
 > output <- "C:/Users/u/R/CS50 final project/"
+> 
 > lyrics_chart(file, output, filterCount = 3)
 
+
 ### notes_chart
+
 > notes <- c(
 >   "G4", "G4", "A4", "G4", "C5", "B4", 
 >   "G4", "G4", "A4", "G4", "D5", "C5", 
 >   "G4", "G4", "G5", "E5", "C5", "B4", "A4", 
 >   "F5", "F5", "E5", "C5", "D5", "C5"
 > )
+> 
 > timestamps <- c(
 >   0.0, 0.5, 1.0, 1.5, 2.0, 3.0,
 >   4.0, 4.5, 5.0, 5.5, 6.0, 7.0,
@@ -57,4 +67,5 @@ This package is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 [ghazaghaidin@gmail.com](mailto:ghazaghaidin@gmail.com)
+
 [linkedin](https://linkedin.com/in/aidin-ghazagh)
