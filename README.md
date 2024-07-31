@@ -19,14 +19,14 @@ musicvisu is an R package that helps visualize musical notations and lyrics. It 
 ## 📦 Installation
 
 You can install the released version of musicvizu from CRAN with:
-
-> install.packages("musicvizu")
-
+```r
+install.packages("musicvizu")
+```
 
 Or the development version from GitHub with:
-
-> devtools::install_github("aidinghazagh/musicvisu")
-
+```r
+devtools::install_github("aidinghazagh/musicvisu")
+```
 
 ## 🚀 Features
 
