@@ -5,9 +5,9 @@
 - [Installation](#-installation)
 - [Features](#-features)
 - [Usage](#-usage)
-  - [frequencies_to_notes()](#frequencies_to_notes)
-  - [lyrics_chart()](#lyrics_chart)
-  - [notes_chart()](#notes_chart)
+  - [frequencies_to_notes()](#-frequencies_to_notes)
+  - [lyrics_chart()](#-lyrics_chart)
+  - [notes_chart()](#-notes_chart)
 - [License](#-license)
 - [Contributing](#-contributing)
 - [Contact](#-contact)
@@ -36,21 +36,21 @@ devtools::install_github("aidinghazagh/musicvisu")
 
 ## 📚 Usage
 
-### frequencies_to_notes()
+### 🟩 frequencies_to_notes()
 ```r
 frequencies <- c(440, 880, 241.5)
 notes <- frequencies_to_notes(frequencies)
 cat(notes)
 ```
 
-### lyrics_chart()
+### 🟥 lyrics_chart()
 ```r
 file <- "C:/Users/u/R/CS50 final project/yesterday.txt"
 output <- "C:/Users/u/R/CS50 final project/"
 lyrics_chart(file, output, filterCount = 3)
 ```
 
-### notes_chart
+### 🟦 notes_chart()
 ```r
 notes <- c(
   "G4", "G4", "A4", "G4", "C5", "B4", 
