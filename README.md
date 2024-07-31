@@ -4,9 +4,9 @@
 - [Installation](#installation)
 - [Features](#features)
 - [Usage](#usage)
-  - [frequencies_to_notes](#frequencies_to_notes())
-  - [lyrics_chart()](#lyrics_chart())
-  - [notes_chart()](#notes_chart())
+  - [frequencies_to_notes](#frequencies_to_notes)
+  - [lyrics_chart()](#lyrics_chart)
+  - [notes_chart()](#notes_chart)
 - [License](#license)
 - [Contact](#contact)
 
