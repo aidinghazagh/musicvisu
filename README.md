@@ -2,7 +2,7 @@
 
 ## Overview
 
-musicvisu is an R package that A music themed package to help visualize notations and lyrics. It provides functions to transform frequency data to musical notations, create a chart of most occurred words of a song lyrics and create a chart of notations and their timestamps relative to eachother.
+musicvisu is an R package that helps visualize musical notations and lyrics. It provides functions to transform frequency data to musical notations, create a chart of most occurred words of a song lyrics and create a chart of notations and their timestamps relative to eachother.
 
 ## Installation
 
