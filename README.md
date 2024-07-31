@@ -20,7 +20,7 @@ musicvisu is an R package that helps visualize musical notations and lyrics. It 
 
 You can install the released version of musicvizu from CRAN with:
 ```r
-install.packages("musicvizu")
+install.packages("musicvisu")
 ```
 
 Or the development version from GitHub with:
