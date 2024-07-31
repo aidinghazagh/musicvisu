@@ -1,20 +1,22 @@
-# musicvisu R package
+# 🎶 musicvisu R package
 
-- [Overview](#overview)
-- [Installation](#installation)
-- [Features](#features)
-- [Usage](#usage)
+## #️⃣ Indexes
+- [Overview](#-overview)
+- [Installation](#-installation)
+- [Features](#-features)
+- [Usage](#-usage)
   - [frequencies_to_notes](#frequencies_to_notes)
   - [lyrics_chart()](#lyrics_chart)
   - [notes_chart()](#notes_chart)
-- [License](#license)
-- [Contact](#contact)
+- [License](#-license)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
 
-## Overview
+## 👓 Overview
 
 musicvisu is an R package that helps visualize musical notations and lyrics. It provides functions to transform frequency data to musical notations, create a chart of most occurred words of a song lyrics and create a chart of notations and their timestamps relative to eachother.
 
-## Installation
+## 📦 Installation
 
 You can install the released version of musicvizu from CRAN with:
 
@@ -26,13 +28,13 @@ Or the development version from GitHub with:
 > devtools::install_github("aidinghazagh/musicvisu")
 
 
-## Features
+## 🚀 Features
 
 - Transform your frequency data to musical notations
 - Find out how many times a word gets repeated in a song and analyze patterns
 - Create charts from musical notes and find interesting observation and relations between them
 
-## Usage
+## 📚 Usage
 
 ### frequencies_to_notes()
 
@@ -72,10 +74,15 @@ Or the development version from GitHub with:
 > notes_chart(notes, timestamps, output_dir)
 
 
-## License
+## 📄 License
 This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-[ghazaghaidin@gmail.com](mailto:ghazaghaidin@gmail.com)
+## 🤝 Contributing
+Contributions are welcome! If you have any ideas or suggestions, feel free to open an issue or create a pull request.
 
-[linkedin](https://linkedin.com/in/aidin-ghazagh)
+## 📧 Contact
+If you have any questions or feedback, feel free to reach out:
+
+Email: [ghazaghaidin@gmail.com](mailto:ghazaghaidin@gmail.com)
+
+Linkedin: [Aidin Ghazagh](https://linkedin.com/in/aidin-ghazagh)
