@@ -1,5 +1,15 @@
 # musicvisu R package
 
+- [Overview](#overview)
+- [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+  - [frequencies_to_notes](#frequencies_to_notes())
+  - [lyrics_chart()](#lyrics_chart())
+  - [notes_chart()](#notes_chart())
+- [License](#license)
+- [Contact](#contact)
+
 ## Overview
 
 musicvisu is an R package that helps visualize musical notations and lyrics. It provides functions to transform frequency data to musical notations, create a chart of most occurred words of a song lyrics and create a chart of notations and their timestamps relative to eachother.
@@ -29,7 +39,7 @@ Or the development version from GitHub with:
 > frequencies <- c(440, 880, 241.5)
 > 
 > notes <- frequencies_to_notes(frequencies
-
+>
 > cat(notes)
 
 
