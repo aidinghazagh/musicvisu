@@ -1,0 +1,15 @@
+Package: musicvisu
+Title: Music Visualizer
+Description: Visialize your Music
+Version: 0.1.0
+Authors@R: person("Aidin", "Ghazagh", email = "ghazaghaidin@gmail.com", role = c("aut", "cre", "cph"))
+Maintainer:	Aidin Ghazagh <ghazaghaidin@gmail.com>
+URL: https://github.com/aidinghazagh/musicvisu
+License: MIT + file LICENSE
+Video: https://www.youtube.com/watch?v=g7f5rQB2GB8
+Imports:
+  ggplot2,
+  tidyverse
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
