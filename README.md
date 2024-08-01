@@ -44,6 +44,7 @@ devtools::install_github("aidinghazagh/musicvisu")
 frequencies <- c(440, 880, 241.5)
 notes <- frequencies_to_notes(frequencies)
 cat(notes)
+# Output: A4 A5 B3
 ```
 
 ### • lyrics_chart()
