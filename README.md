@@ -52,6 +52,8 @@ file <- "C:/Users/u/R/CS50 final project/yesterday.txt"
 output <- "C:/Users/u/R/CS50 final project/"
 lyrics_chart(file, output, filterCount = 3)
 ```
+![lyrics_chart](word-chart.png)
+
 
 ### • notes_chart()
 ```r
@@ -71,6 +73,8 @@ timestamps <- c(
 output_dir <- "C:/Users/u/R/CS50 final project/"
 notes_chart(notes, timestamps, output_dir)
 ```
+![notes_chart](note-chart.png)
+
 
 ## 📄 License
 This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
