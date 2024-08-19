@@ -6,7 +6,6 @@ Authors@R: person("Aidin", "Ghazagh", email = "ghazaghaidin@gmail.com", role = c
 Maintainer:	Aidin Ghazagh <ghazaghaidin@gmail.com>
 URL: https://github.com/aidinghazagh/musicvisu
 License: MIT + file LICENSE
-Video: https://www.youtube.com/watch?v=g7f5rQB2GB8
 Imports:
   ggplot2,
   tidyverse
