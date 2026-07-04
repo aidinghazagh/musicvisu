@@ -1,0 +1,7 @@
+^musicvisu\.Rproj$
+^\.Rproj\.user$
+^.*\.png$
+^musicvisu_[0-9]+\.[0-9]+\.[0-9]+\.tar\.gz$
+^\.mimocode$
+^\.git$
+^\.gitignore$

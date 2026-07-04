@@ -1,14 +1,20 @@
 Package: musicvisu
 Title: Music Visualizer
-Description: Visialize your Music
+Description: Visualize your Music
 Version: 0.1.0
 Authors@R: person("Aidin", "Ghazagh", email = "ghazaghaidin@gmail.com", role = c("aut", "cre", "cph"))
-Maintainer:	Aidin Ghazagh <ghazaghaidin@gmail.com>
+Maintainer: Aidin Ghazagh <ghazaghaidin@gmail.com>
 URL: https://github.com/aidinghazagh/musicvisu
 License: MIT + file LICENSE
 Imports:
+  dplyr,
   ggplot2,
-  tidyverse
-Suggests: 
+  readr,
+  rlang,
+  scales,
+  stats,
+  stringr,
+  tibble
+Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

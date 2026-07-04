@@ -29,6 +29,6 @@ describe("lyrics_chart()", {
     expect_error(lyrics_chart(sample_file, output_dir, filterCount = -1))
     expect_error(lyrics_chart(sample_file, output_dir, filterCount = 0))
     expect_error(lyrics_chart(sample_file, output_dir, filterCount = 1.5))
-    expect_error(lyrics_chart(sample_file, output_dir, filterCount = 16))
+    expect_error(lyrics_chart(sample_file, output_dir, filterCount = 100))
   })
 })

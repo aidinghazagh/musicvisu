@@ -2,17 +2,17 @@
 \name{notes_chart}
 \alias{notes_chart}
 \title{Notes Chart}
-\description{Will turn notes and their timestamps to a chart}
+\description{Generate a step-line chart of musical notes over time.}
 \usage{
-notes_chart(notes, timestamps, output_dir)
+notes_chart(notes, timestamps, output)
 }
 \arguments{
-\item{notes}{The vector of musical notes from C0 to B8}
-\item{timestamps}{The vector of timestamps in seconds}
-\item{output_dir}{A string of a directory with forward slashes}
+\item{notes}{A character vector of valid note names (C0 through B8, with optional sharps like "C#4").}
+\item{timestamps}{A numeric vector of timestamps in seconds (non-negative).}
+\item{output}{Path to an existing directory where the chart will be saved.}
 }
 \value{
-No returning values only a png file to the designated output_dir
+No return value. Saves a PNG file to the output directory.
 }
 \examples{
 # "Happy Birthday" song notes and corresponding timestamps
